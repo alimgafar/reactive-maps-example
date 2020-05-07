@@ -1,5 +1,7 @@
 .map-container {
   width: 100%;
   max-width: 100%;
-  height: 500px;
+  /* changing this to 100% kills the display. It doesn't render. Why? */
+  height: 6000px;
+  max-height: 100%;
 }

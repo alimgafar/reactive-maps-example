@@ -48,6 +48,8 @@ if (Meteor.isClient) {
           center: new google.maps.LatLng(-37.8136, 144.9631),
           zoom: 8
         };
+      } else {
+        console.log("Map not loaded...");
       }
     }
   });
